@@ -50,7 +50,7 @@ def excluir_livros(self, titulo):
 
 print('Bem-vindo a nossa biblioteca!')
 
-print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros.')
+print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros; \n 5 -> Para fechar o sistema.')
 escolha = int(input('Digite: '))
 
 while True:
@@ -64,19 +64,19 @@ while True:
 while True:
     if escolha == 1:
         Pesquisar()
-        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros.')
+        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros; \n 5 -> Para fechar o sistema.')
         escolha = int(input('Digite: '))
     elif escolha == 2:
         cadastro()
-        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros.')
+        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros; \n 5 -> Para fechar o sistema.')
         escolha = int(input('Digite: '))
     elif escolha == 3:
         excluir_livros()
-        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros.')
+        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros; \n 5 -> Para fechar o sistema.')
         escolha = int(input('Digite: '))
     elif escolha == 4:
         mostrar()
-        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros.')
+        print('O que você deseja fazer?  \n 1 -> Pesquisar livro pelo título; \n 2 -> Cadastrar novos livros; \n 3 -> Deletar livro; \n 4 -> Mostrar tabela de livros; \n 5 -> Para fechar o sistema.')
         escolha = int(input('Digite: '))
     elif escolha == 5:
         break
